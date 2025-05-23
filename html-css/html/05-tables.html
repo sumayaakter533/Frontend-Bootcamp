@@ -1,0 +1,49 @@
+<!--
+    File: 04-tables.html
+    Purpose: Demonstrates a properly structured HTML table with semantic tags for better accessibility and clarity.
+    Concepts covered: <table>, <caption>, <thead>, <tbody>, <th>, <td>.
+    Instructions: Open this file in a browser to see a simple table with fruit inventory data.
+
+    Author: Rayhana Akter Sumaya
+    Date: 2025-05-23
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML Tables</title>
+    </head>
+    <body>
+        <table>
+            <!-- ANCHOR: Table Caption -->
+            <caption>
+                Fruit Inventory
+            </caption>
+
+            <!-- ANCHOR: Table Header -->
+            <thead>
+                <tr>
+                    <th scope="col">Item</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+
+            <!-- ANCHOR: Table Body -->
+            <tbody>
+                <tr>
+                    <td>Apples</td>
+                    <td>10</td>
+                    <td>$5.00</td>
+                </tr>
+                <tr>
+                    <td>Bananas</td>
+                    <td>6</td>
+                    <td>$3.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
