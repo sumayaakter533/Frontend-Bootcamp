@@ -1,0 +1,49 @@
+<!--
+    File: 04-images-and-media.html
+    Purpose: Demonstrates how to use images, audio, video, and iframes in HTML.
+    Concepts covered: <img>, <audio>, <video>, <iframe>, relative vs absolute paths, media attributes.
+    Instructions: Open this file in a browser to view multimedia embedding techniques.
+
+    Author: Rayhana Akter Sumaya
+    Date: 2025-05-23
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML Images & Media</title>
+    </head>
+    <body>
+        <!-- ANCHOR: Images with absolute URL -->
+        <img src="https://example.com/image.jpg" alt="Example Image" />
+
+        <!-- ANCHOR: Images with relative path -->
+        <img src="images/photo.jpg" alt="Local Photo" />
+
+        <!-- ANCHOR: Images with size and title attributes -->
+        <img src="banner.jpg" width="300" height="150" alt="Banner" />
+        <img src="icon.png" alt="Information Icon" title="Click for details" />
+
+        <!-- ANCHOR: HTML5 Audio Player -->
+        <audio controls autoplay>
+            <source src="song.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- ANCHOR: HTML5 Video Player -->
+        <video src="video.mp4" autoplay loop muted></video>
+        <video src="video.mp4" controls></video>
+
+        <!-- ANCHOR: Embedded YouTube Video using iframe -->
+        <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            width="560"
+            height="315"
+            title="YouTube video player"
+            frameborder="0"
+            allowfullscreen
+        ></iframe>
+    </body>
+</html>
