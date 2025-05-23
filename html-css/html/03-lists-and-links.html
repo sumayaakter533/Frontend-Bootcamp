@@ -1,0 +1,85 @@
+<!--
+    File: 03-lists-and-links.html
+    Purpose: Practice and demonstrate usage of HTML list types and hyperlink variations in a semantic layout.
+    Concepts Covered:
+        - List types: <ul>, <ol>, <dl>
+        - Nesting lists properly
+        - Anchor tags with href, target, download, type attributes
+    Instructions: Open this file in a browser to explore various list styles and functional links.
+
+    Author: Rayhana Akter Sumaya
+    Date: 2025-05-23
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Practice: HTML Lists & Links</title>
+    </head>
+    <body>
+        <!-- SECTION: Unordered and Ordered Lists -->
+
+        <!-- ANCHOR: Grocery List (Unordered) -->
+        <h2>Grocery List</h2>
+        <ul>
+            <li>Milk</li>
+            <li>Eggs</li>
+            <li>
+                Vegetables
+                <ul>
+                    <li>Carrots</li>
+                    <li>Spinach</li>
+                </ul>
+            </li>
+            <li>Rice</li>
+        </ul>
+
+        <!-- ANCHOR: To-Do List (Ordered) -->
+        <h2>To-Do List</h2>
+        <ol>
+            <li>Wake up early</li>
+            <li>Study HTML</li>
+            <li>Practice coding</li>
+            <li>Write LinkedIn post</li>
+        </ol>
+
+        <!-- ANCHOR: Glossary (Description List) -->
+        <h2>HTML Glossary</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language — used to structure web pages.</dd>
+
+            <dt>Element</dt>
+            <dd>A building block of HTML with opening and closing tags.</dd>
+
+            <dt>Attribute</dt>
+            <dd>Provides additional information about an element.</dd>
+        </dl>
+
+        <!-- SECTION: Hyperlinks -->
+
+        <!-- ANCHOR: Navigation Links -->
+        <h2>Useful Links</h2>
+        <ul>
+            <li>
+                <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                    target="_blank"
+                    >MDN HTML Docs</a
+                >
+            </li>
+            <li>
+                <a href="https://www.w3schools.com/html/" target="_blank"
+                    >W3Schools HTML Tutorial</a
+                >
+            </li>
+            <li>
+                <a href="/files/html-cheatsheet.pdf" download
+                    >Download HTML Cheat Sheet (PDF)</a
+                >
+            </li>
+        </ul>
+    </body>
+</html>
